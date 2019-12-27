@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans|Open+Sans|Roboto|Roboto+Condensed');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: url(downloadPage.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1em;
+   
+}
+
+.brand{
+    text-align: center;
+    
+}
+
+.container table, .container th, .container td {
+  
+    text-align: center;
+     
+}
+
+.data {
+     text-align: center;
+    
+    
+}
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    
+}
+.form{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,1);
+    background-color: white;
+    opacity: 0.98;
+    padding: 10 15 10 15px;
+}
+
+.container #userStatus{
+   
+    border: 1px solid;
+    text-align: center;
+    
+}
+
+.statusTable{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#fileData{
+
+    font-size: 15px;
+}
+
+
+@media (max-width: 714px) {
+#fileData{
+
+    font-size: 12px;
+}
+}
